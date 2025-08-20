@@ -1,0 +1,19 @@
+{
+  "name": "ms_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"dev": "NODE_ENV=dev node index.js"
+  },
+  "author": "Tim Campbell",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@fastify/cors": "^11.1.0",
+    "fastify": "^5.5.0",
+    "node-pty": "^1.0.0",
+    "ws": "^8.18.3"
+  }
+}
